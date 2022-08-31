@@ -1,4 +1,5 @@
 # flux2
+---
 brew install fluxcd/tap/flux
 kind create cluster 
 brew install gh
