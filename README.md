@@ -4,7 +4,7 @@ kind create cluster
 brew install gh
 gh auth login
 cat ~/.config/gh/hosts.yml
-export GITHUB_TOKEN=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
+export GITHUB_TOKEN=gho_
 ---
 flux bootstrap github
 --owner=anakhub
