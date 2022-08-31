@@ -6,8 +6,8 @@ gh auth login
 cat ~/.config/gh/hosts.yml
 export GITHUB_TOKEN=gho_
 ---
-flux bootstrap github
---owner=anakhub
---repository=flux2
---path=./clusters/default
---branch=main
+flux bootstrap github \
+  --owner=anakhub \
+  --repository=flux2 \
+  --path=./clusters/default \
+  --branch=main
