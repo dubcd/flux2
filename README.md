@@ -12,3 +12,17 @@ flux bootstrap github \
   --repository=flux2 \
   --path=./clusters/default \
   --branch=main
+
+
+# create a new blank cluster
+kind create cluster
+
+# set the token
+export GITLAB_TOKEN=$(cat gitlab_token)
+
+# re-bootstrapping Flux
+flux bootstrap gitlab \
+  --owner=ksn-gitops-poc \
+  --repository=dev-21-jul-session \
+  --path=./clusters/default \
+  --branch=main
