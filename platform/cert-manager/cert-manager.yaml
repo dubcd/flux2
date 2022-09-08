@@ -35,4 +35,3 @@ spec:
     crds: CreateReplace
   values:
     installCRDs: true
-    replicaCount: 1
